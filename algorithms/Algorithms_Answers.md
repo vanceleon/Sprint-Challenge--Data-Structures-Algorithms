@@ -3,7 +3,8 @@ Add your answers to the Algorithms exercises here.
 Exercise 1
 
 a) O(n)
-b) (n!) solution never reached, always increasing if bunnies is not 0 
+b) O(10 + n^3)
+c) O(n!) solution never reached, always increasing if bunnies is not 0 
 
 
 Exercise 2
