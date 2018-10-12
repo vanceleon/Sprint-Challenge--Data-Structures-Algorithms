@@ -5,10 +5,30 @@ class BinarySearchTree:
     self.right = None
 
   def depth_first_for_each(self, cb):
-    pass    
+    # loop left first if left == Null go right
+    # check each left value 
+    # if not value then loop further left until reach leaf node
+    # if leaf node does not contain loop back to parent node 
+    # go right if leaf node != go back to root node 
+    # go right
+    # repeat steps for right side as left 
+    for 
+    
+    print(cb)
 
-  def breadth_first_for_each(self, cb):
-    pass
+  # print(depth_first_for_each(contains))
+
+
+  def breadth_first_for_each(self, cb, target=0):
+    # check left from root
+    # check right from root
+    # go back to left node check left right nodes
+    # back to parent
+    
+
+    if sel
+
+
 
   def insert(self, value):
     new_tree = BinarySearchTree(value)
@@ -44,3 +64,4 @@ class BinarySearchTree:
         max_value = current.value
       current = current.right
     return max_value
+
