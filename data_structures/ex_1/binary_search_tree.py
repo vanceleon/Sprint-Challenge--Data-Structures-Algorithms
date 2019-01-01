@@ -5,28 +5,12 @@ class BinarySearchTree:
     self.right = None
 
 # Recurisive implementation
-  # def depth_first_for_each(self, cb):
-  #   cb(slef.value)
-  #   if self.left:
-  #     self.left.depth_first_for_each(cb)
-  #   if self.right:
-  #     self.right.depth_first_for_each(cb)
-
-  # Iterative implementation
   def depth_first_for_each(self, cb):
-    stack = []
-    stack.append(self)
-
-    while len(stack):
-      current_node = stack.pop()
-      if current_node.right:
-        stack.append(current_node.right)
-      if current_node.left:
-        stack.append(current_node.left)
-      cb(current_node.value)
-
-
-
+    cb(self.value)
+    if self.left:
+      self.left.depth_first_for_each(cb)
+    if self.right:
+      self.right.depth_first_for_each(cb)
 
 
   def breadth_first_for_each(self, cb, target=0):
