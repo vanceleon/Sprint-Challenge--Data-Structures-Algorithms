@@ -3,11 +3,13 @@ Add your answers to the Algorithms exercises here.
 Exercise 1
 
 a) O(n)
-b) O(10 + n^3)
-c) O(n!) solution never reached, always increasing if bunnies is not 0 
+b) O(n^3)
+c) O(n) 
 
 
 Exercise 2
 
-set _f_ to be < _f_ 
-and anything between _n_ <= notdrop <= _f_ is a non drop zone
+
+divide n by 2 and start the iterations there
+
+using if statements to check if it will break at a higher or lower floor, if it doesn't break use a recursive call to iterate again and check until the egg finally breaks. WHen it breaks return the floor that it previously didn't break on.

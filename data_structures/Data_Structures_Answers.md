@@ -1,10 +1,10 @@
 Add your answers to the questions below.
 
 1. What is the runtime complexity of your `depth_first_for_each` method?
-O(n^2) have to run two operations for each parent node to check the left and the right
+    O(n) 
+
 2. What is the space complexity of your `depth_first_for_each` function?
-    would be O(2N)
-    O(n) best case scenario
+    would be O(n)
 
 3. What is the runtime complexity of your `breadth_first_for_each` method?
     O(n) doing one operation through the entire binary tree
