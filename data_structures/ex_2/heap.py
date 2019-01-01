@@ -9,7 +9,7 @@ def heapsort(arr):
   for i in range(len(arr)):
     sortedArr.insert(0, heap.get_max())
     heap.delete()
-  print(sortedArr)
+  # print(sortedArr)
   return sortedArr
   
 
